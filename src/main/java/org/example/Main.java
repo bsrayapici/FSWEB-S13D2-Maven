@@ -5,6 +5,7 @@ public class Main {
         System.out.println(isPalindrome(-1221));
         System.out.println(isPerfectNumber(6));
         System.out.println(numberToWords(15876));
+        System.out.println(numberToWords(123));
 
 
     }
@@ -45,7 +46,7 @@ public class Main {
                     numToText += "Zero";
                     break;
                 case '1':
-                    numToText += "One ";
+                    numToText += "One  ";
                     break;
 
                 case '2':
@@ -61,23 +62,23 @@ public class Main {
                     break;
 
                 case '5':
-                    numToText += "Five ";
+                    numToText += "Five";
                     break;
 
                     case '6':
-                    numToText += "Six ";
+                    numToText += "Six";
                     break;
 
                     case '7':
-                    numToText += "Seven ";
+                    numToText += "Seven";
                     break;
 
                     case '8':
-                    numToText += "Eight ";
+                    numToText += "Eight";
                     break;
 
                 case '9':
-                    numToText += "Nine ";
+                    numToText += "Nine";
                     break;
 
             }
